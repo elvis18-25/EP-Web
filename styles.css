@@ -1641,6 +1641,13 @@ select {
     transition: var(--transition-slow);
 }
 
+.portfolio-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
 .portfolio-placeholder i {
     font-size: 36px;
     color: rgba(255, 255, 255, 0.7);
